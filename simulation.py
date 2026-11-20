@@ -4,9 +4,6 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
-
-rcParams['font.family'] = 'Noto Sans CJK JP'
 
 # シミュレーション条件
 T = 30.0

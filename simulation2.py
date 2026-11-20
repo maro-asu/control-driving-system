@@ -4,9 +4,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 import matplotlib.pyplot as plt
-from matplotlib import rcParams
 
-rcParams['font.family'] = 'Noto Sans CJK JP'
 
 def simulate(Kd, Kv=0.8):
     T = 30.0
