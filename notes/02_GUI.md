@@ -28,3 +28,22 @@ Tkinterとは，PythonからGUIウィンドウを扱うための標準ライブ�
 matplotlib.use('TkAgg')によって，「Matplotlibに対してTkinterを使ったGUI表示方式を利用する」と指定している．
 
 利用してみて，個人的にはPythonのTkinterとJavaのswingは機能が似ているライブラリだと感じた．
+どちらもGUIアプリをつくるためのライブラリとして存在する．
+
+swingで
+JButton button = new JButton("開始");
+panel.add(button);
+と書いていたものは，
+
+Tkinterでは
+button = tk.Button(panel, text="開始")
+button.pack()
+と書くことができる．
+
+どちらも
+1. GUI部品を作る
+2. 部品をパネルなどに配置する
+3. ボタンを押したときの処理を設定する
+という流れになっている．
+
+TkinterもSwingも，GUI部品を組み合わせて画面を構成する仕組みであるとわかる．
