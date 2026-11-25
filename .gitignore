@@ -8,6 +8,3 @@ __pycache__/
 # VS Codeの個人設定
 .vscode/
 
-# シミュレーション結果の画像
-*.png
-*.jpg
